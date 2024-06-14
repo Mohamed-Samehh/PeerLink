@@ -17,7 +17,7 @@ Profile Management
 - Password Management: Users can change their passwords securely to maintain account security and privacy.
 
 Social Interaction
-- Follow and Unfollow: Users can follow or unfollow each other to curate their feed with content from users they are interested in.
+- Follow and Unfollow: Users can follow or unfollow each other to personalize their feed with content from users they are interested in.
 - View Followers and Following: Users can view lists of who they are following and who follows them, making it easy to manage their social network.
 
 Content Discovery

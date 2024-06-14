@@ -81,19 +81,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
             margin: 0;
             padding: 0;
             font-family: "Poppins", sans-serif;
+            box-sizing: border-box;
         }
 
         body {
             margin: 0;
             padding: 0;
-            width: 97%;
             background-color: #f4f7f6;
+            overflow-x: hidden;
         }
 
         header {
             background-color: #ffffff;
             height: 80px;
-            width: 100%;
             display: flex;
             align-items: center;
             border-bottom: solid #aaa 1px;
@@ -120,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
 
         .links {
             display: flex;
-            gap: 2rem;
+            gap: 20px;
         }
 
         .links a {
@@ -148,8 +148,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
             border-radius: 50px;
             padding: 10px 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
             max-width: 600px;
+            width: 100%;
         }
 
         .search_bar i {
@@ -159,10 +159,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
 
         .search_bar input {
             font-size: 1rem;
-            width: 100%;
             border: none;
             outline: none;
             padding: 10px;
+            width: 100%;
         }
 
         #root {
@@ -188,10 +188,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
             align-items: center;
             justify-content: center;
             padding: 20px;
-        }
-
-        .box {
-            flex: 0 1 calc(25% - 40px);
+            flex: 0 1 280px;
             box-sizing: border-box;
         }
 
@@ -250,49 +247,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
             background-color: #023e8a;
         }
 
-        footer {
-            background-color: #eceff1;
-            color: #333333;
-            padding: 40px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 40px;
-        }
-
-        .footer_container {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            max-width: 1200px;
-            flex-wrap: wrap;
-        }
-
-        .footer_col, .footer_cool {
-            margin: 20px 0;
-        }
-
-        .footer_col h4, .footer_cool h3 {
-            margin-bottom: 20px;
-        }
-
-        .footer_col p {
-            margin: 10px 0;
-            cursor: pointer;
-            transition: color 0.3s;
-        }
-
-        .footer_col p:hover {
-            color: #0077b6;
-        }
-
-        .footer_bar {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 0.9rem;
-            color: gray;
-        }
-
         #no_users {
             display: flex;
             justify-content: center;
@@ -307,19 +261,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
 
         @media (max-width: 1200px) {
             .box {
-                flex: 0 1 calc(33.333% - 40px);
+                flex: 0 1 30%;
             }
         }
 
         @media (max-width: 768px) {
             .box {
-                flex: 0 1 calc(50% - 40px);
+                flex: 0 1 45%;
             }
         }
 
         @media (max-width: 480px) {
             .box {
-                flex: 0 1 calc(100% - 40px);
+                flex: 0 1 90%;
             }
         }
     </style>

@@ -27,7 +27,7 @@ $query = "
            IF(f.followerId IS NOT NULL, 1, 0) AS isFollowed
     FROM user u
     LEFT JOIN follows f ON f.followedId = u.id AND f.followerId = $userID
-    WHERE u.username LIKE '%$search%' AND u.id != $userID
+    WHERE u.username LIKE '$search%' AND u.id != $userID
     ORDER BY isFollowed DESC, u.username ASC
 ";
 $result = $conn->query($query);

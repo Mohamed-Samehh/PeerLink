@@ -9,10 +9,10 @@
    - Make sure Server choice is `"MySQL"`.
 
 3. **Create Database:**
-   - Create a new database named `"peerlink"` in PhpMyAdmin (MySQL).
+   - Create a new database named `"peerlink"` in PhpMyAdmin.
 
 4. **Import Database File:**
-   - Click on the `"Import"` tab in PhpMyAdmin (MySQL).
+   - Click on the `"Import"` tab in PhpMyAdmin.
    - Choose the file named `"peerlink.sql"` from the `"Data"` folder.
    - Execute the import to populate the `"peerlink"` database.
 

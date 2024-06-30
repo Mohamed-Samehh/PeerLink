@@ -39,13 +39,13 @@ PeerLink is a dynamic social media platform designed to connect users through po
 
 ## Pages
 
-- **Home (`home.php`):** The main feed where users can view and interact with posts from the people they follow.
-- **Settings (`account.php`):** Allows users to manage their profiles, update personal information, and change passwords.
-- **This User's Profile (`posts.php`):** Displays this user’s posts, followers, and following lists.
-- **Other User's Profile (`userPosts.php`):** Displays the other user's posts, followers, and following lists.
-- **Login (`Login.php`):** The login page where users can access their accounts securely.
-- **Sign Up (`Sign Up.php`):** The registration page where new users can create an account.
-- **Connect (`search_result.php`):** This page lists all registered users of the platform. It enables users to search for specific accounts using their usernames.
+- **Home `(home.php)`:** The main feed where users can view and interact with posts from the people they follow.
+- **Settings `(account.php)`:** Allows users to manage their profiles, update personal information, and change passwords.
+- **This User's Profile `(posts.php)`:** Displays this user’s posts, followers, and following lists.
+- **Other User's Profile `(userPosts.php)`:** Displays the other user's posts, followers, and following lists.
+- **Login `(Login.php)`:** The login page where users can access their accounts securely.
+- **Sign Up `(Sign Up.php)`:** The registration page where new users can create an account.
+- **Connect `(search_result.php)`:** This page lists all registered users of the platform. It enables users to search for specific accounts using their usernames.
 
 ## Conclusion
 

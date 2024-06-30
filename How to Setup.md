@@ -6,7 +6,7 @@
 
 2. **Login to PhpMyAdmin:**
    - Use Username `"root"` and leave the Password field empty.
-   - Make sure Server choice is `"MySQL"`.
+   - Make sure Server choice is set to `"MySQL"`.
 
 3. **Create Database:**
    - Create a new database named `"peerlink"` in PhpMyAdmin.
